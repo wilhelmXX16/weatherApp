@@ -1,0 +1,88 @@
+.App{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.card{
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(115, 112, 112, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 0 0 10px #fff9;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card__title{
+    grid-column: span 2;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.card__second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.second__list{
+    display: grid;
+    gap: 7px;
+}
+.second_span{
+    color: aquamarine;
+}
+.second__item{
+    color: #fffa;
+}
+.card__temperature{
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+.card__btn{
+    grid-column: span 2;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #7fffd477;
+    border: none;
+    border-radius: 5px;
+    color: rgb(228, 50, 15);
+    text-shadow: 1px 1px 5px #0009;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 100ms ease;
+    margin-bottom: 10px;
+}
+.card__btn:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    transition: transform 100ms ease;
+}
+.imag-Thunderstorm{
+    background-image: url('https://static01.nyt.com/images/2020/02/06/climate/06CLI-LIGHTNING/06CLI-LIGHTNING-videoSixteenByNine3000.jpg?year=2020&h=1688&w=3000&s=c8dd3babea43cf9df0515d541d69b37190a46601cf9e33a6619140a6b2073b0a&k=ZQJBKqZ0VN&tw=1');
+}
+.imag-Drizzle{
+    background-image: url('https://i.guim.co.uk/img/media/8132db117e863456488b553125383608d8c13264/0_265_2366_1419/master/2366.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=a646aa6afdee6cbea9460b4a660743ab');
+}
+.imag-Rain{
+    background-image: url('https://www.chemwatch.net/wp-content/uploads/2021/05/image-4.jpeg');
+}
+.imag-Snow{
+    background-image: url('https://insure2drive.co.uk/wp-content/uploads/2020/12/ice-and-snow-shutterstock_1669038541-scaled.jpg');
+}
+.imag-Atmosphere{
+    background-image: url('https://www.dzoom.org.es/wp-content/uploads/2011/01/ejemplos-niebla6.jpg');
+}
+.imag-Clear{
+    background-image: url('https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3doeS1pcy1za3ktYmx1ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==');
+}
+.imag-Clouds{
+    background-image: url('https://www.gannett-cdn.com/-mm-/c472e2b2f354224323276626285c7d595262faba/c=0-210-3600-2244/local/-/media/2016/06/10/Cincinnati/Cincinnati/636011561949676545-770-3767632.JPG');
+}
